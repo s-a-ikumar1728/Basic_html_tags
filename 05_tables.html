@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+    <style>
+        body {
+            margin-bottom: 500px;
+        }
+
+        #k,
+        #k th,
+        #k td {
+            border: 2px solid blueviolet;
+            border-collapse: collapse;
+        }
+
+        #k th {
+            background-color: lightseagreen;
+
+        }
+
+        #k {
+            width: 100%;
+            text-align:right;
+            font-family: arial, sans-serif;
+            padding: 10px;
+            box-shadow: 0 0 10px black;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>SIMPLE TABLE</h2>
+    <table border="4">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>NAME</th>
+                <th>PHONE</th>
+                <th>LOCATION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+        </tbody>
+    </table>
+    <H2>ROW SPAN</H2>
+    <table border="4">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>NAME</th>
+                <th>PHONE</th>
+                <th>LOCATION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+            <tr>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+            <tr>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>COLSPAN</h2>
+    <table border="4">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>NAME</th>
+                <th colspan="2">PHONE & LOCATION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>WITH CSS STYLE</h2>
+    <table id="k">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>NAME</th>
+                <th>PHONE</th>
+                <th>LOCATION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>sai</td>
+                <td>123456789</td>
+                <td>madanapalle</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
